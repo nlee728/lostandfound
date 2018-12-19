@@ -17,5 +17,6 @@ var sequelize = new Sequelize("tracker", "root", "root", {
   }
 });
 
+
 // Exports the connection for other files to use
 module.exports = sequelize;
