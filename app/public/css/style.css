@@ -1,27 +1,29 @@
 .sighting-container {
   padding: 20px;
   margin: 15px;
-  background-color: rgba(52, 195, 252, 0.329);
   overflow: scroll;
   height: 300px;
 }
 
 .sighting {
   margin-bottom: 10px;
+  background-color: rgba(255, 255, 255);
+  padding: 4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cool-font {
-  font-family: Permanent-Marker, cursive;
-  font-size: 24px;
-  color: #1da1f2;
+#sighting-box {
+  margin-right: 10px;
+  width: 90%;
+
 }
 
 .navbar {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   background-color: black;
-  padding: 5px;
-  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
@@ -51,7 +53,13 @@ p {
   font-size: 16px;
 }
 
-img {
-  width: 80%;
-  
+.main-container {
+  /* background-color: gray; */
+  background: url("../images/map-background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+   padding: 20px; 
 }

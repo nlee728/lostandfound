@@ -2,38 +2,30 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
     <title>The Tracker</title>
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <!-- jQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <!-- Moment.js -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Kodchasan|Permanent+Marker" rel="stylesheet">
-
-    <!-- CSS -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse">
-      <h1>The Tracker</h1>
+    <nav class="navbar">
+      <h6>THE TRACKER</h6>
     </nav>
 
-    <div class="container">
+    <div class="main-container">
         
-      <div class="row">
+      <!-- <div class="row">
           <div class="col col-md-4"></div>
            <div class="col col-md-4">
                     <img src="images/the-sleuth-box.jpg">
             </div>
-      </div>
+      </div> -->
             <div class="row">
         <div class="col col-md-8">
             <input class="form-control" type="text" id="sighting-box" placeholder="Last Location Sighted"></input>
@@ -51,7 +43,7 @@
         <div class="row">
            
         <div class="col col-md-12" >
-          <h2>Sightings</h2>
+          <h6>RECENT SIGHTINGS</h6>
           <hr>
           <div class="sighting-container">
               <div id="sighting-area"></div>
@@ -64,10 +56,14 @@
 
     <footer class="navbar-fixed-bottom">
       <div>
-        <h6>Tracker 2018. All Rights Reserved. NLee Design</h6>
+        <p>Tracker 2018. All Rights Reserved. NLee Design</p>
       </div>
     </footer>
 
-  <script type="text/javascript" src="js/sighting.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script type="text/javascript" src="js/sighting.js"></script>
   </body>
 </html>

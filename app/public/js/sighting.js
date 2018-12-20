@@ -45,7 +45,6 @@ $.get("/api/all", function(data) {
 
       row.append("<p>Last sighted: " + data[i].location + " by " + data[i].author +"</p>");
       row.append("<p>At " + moment(data[i].created_at).format("h:mma on dddd") + "</p>");
-      row.append("<hr>");
 
       $("#sighting-area").prepend(row);
 
