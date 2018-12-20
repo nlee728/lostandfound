@@ -10,7 +10,7 @@
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "trackert",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
@@ -20,7 +20,6 @@
     "password": "o3bp9ubnj2gjanli",
     "database": "fn8ypkk4stgtidpb",
     "host": "zf4nk2bcqjvif4in.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": 3306,
     "dialect": "mysql"
   }
 }
