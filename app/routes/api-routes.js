@@ -1,11 +1,10 @@
 // *********************************************************************************
 // api-routes.js - this file offers a set of routes for displaying and saving data to the db
 // *********************************************************************************
-var db = require("../models");
 
 // Dependencies
 // =============================================================
-var Sighting = require("../models/sighting.js");
+var db = require("../models");
 
 
 // Routes
@@ -19,7 +18,7 @@ module.exports = function(app) {
     // Sequelize queries are asynchronous, which helps with perceived speed.
     // If we want something to be guaranteed to happen after the query, we'll use
     // the .then function
-    Sighting.findAll({}).then(function(results) {
+   db. Sighting.findAll({}).then(function(results) {
       // results are available to us inside the .then
       res.json(results);
     });
@@ -32,7 +31,7 @@ module.exports = function(app) {
     console.log("Sighting Data:");
     console.log(req.body);
 
-    Sighting.create({
+    db.Sighting.create({
       author: req.body.author,
       location: req.body.location,
       created_at: req.body.created_at
